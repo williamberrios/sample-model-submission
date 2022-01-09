@@ -4,6 +4,7 @@
 from setuptools import setup, find_packages
 
 requirements = [
+    "torch",
     "model-tools @ git+https://github.com/williamberrios/model-tools/",
     "fvcore @ git+https://github.com/facebookresearch/fvcore",
     "simplejson",
@@ -11,7 +12,6 @@ requirements = [
     "psutil",
     "opencv-python",
     "pytorchvideo",
-    "detectron2 @ git+https://github.com/facebookresearch/detectron2.git",
     "fairscale @ git+https://github.com/facebookresearch/fairscale"
 ]
 
